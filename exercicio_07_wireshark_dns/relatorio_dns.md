@@ -1,7 +1,7 @@
 ### Relatório de Captura - Exercício 7: Consultas DNS
 Trabalho 2 - Redes de Computadores 2
 Professor: Prof. Alessandro Vivas Andrade
-Integrantes: Alisson de Souza Rocha, [Nome do Integrante 2], [Nome do Integrante 3]
+Integrantes: Alisson de Souza Rocha, José Inácio de Moraes Santos, Rafael Gomes da Silva
 
 ### Exercício 7: Utilizando o software Wireshark capture o tráfego de consultas DNS
 

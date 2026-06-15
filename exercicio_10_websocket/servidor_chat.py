@@ -1,3 +1,8 @@
+# --------------------------------------------------------
+# Trabalho 2 - Redes de Computadores 2
+# Professor: Alessandro Vivas Andrade
+# Integrantes: Alisson de Souza Rocha, José Inácio de Moraes Santos, Rafael Gomes da Silva
+# --------------------------------------------------------
 import asyncio
 import websockets
 

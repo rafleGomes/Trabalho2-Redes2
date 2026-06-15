@@ -1,7 +1,7 @@
 # --------------------------------------------------------
 # Trabalho 2 - Redes de Computadores 2
 # Professor: Alessandro Vivas Andrade
-# Integrantes: Alisson de Souza Rocha, [Nome do Integrante 2], [Nome do Integrante 3]
+# Integrantes: Alisson de Souza Rocha, José Inácio de Moraes Santos, Rafael Gomes da Silva
 # --------------------------------------------------------
 import socket
 import threading
