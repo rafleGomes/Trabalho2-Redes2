@@ -1,0 +1,41 @@
+### Relatório de Captura - Exercício 5: Tráfego HTTP
+Trabalho 2 - Redes de Computadores 2
+Professor: Prof. Alessandro Vivas Andrade
+Integrantes: Alisson de Souza Rocha, [Nome do Integrante 2], [Nome do Integrante 3]
+
+### Exercício 5: Utilizando o software Wireshark capture o tráfego HTTP gerado pelo seu navegador 
+
+## 1. Abra o Wireshark 
+## 2. Acesse um site em seu navegador (ex: www.google.com). 
+## 3. Pare a captura e filtre os pacotes por HTTP. 
+## 4. Analise os cabeçalhos HTTP para identificar o método de requisição (GET, POST, etc.), o URL acessado, os cabeçalhos de resposta e o conteúdo da página.
+
+### Respostas exercício 5
+
+## 1. Abra o Wireshark 
+
+# Instalar o Wireshark: sudo apt update && sudo apt install wireshark -y
+# Reconfigurar o pacote de captura: sudo dpkg-reconfigure wireshark-commo
+# Liberar acesso, ou permissão para o Wireshark: sudo usermod -aG wireshark $USER
+# Reiniciar para aplicar permissões
+
+## 2. Acesse um site em seu navegador (ex: www.google.com). 
+
+# Primeiro acessei sites comuns, "riotgames.com", "google.com", etc
+# Depois abri o site específico para testes: http://example.com
+
+## 3. Pare a captura e filtre os pacotes por HTTP. 
+
+# Importante ressaltar que quase todos os sites são https, por isso foi necessário utilizar o example.com para o filtro http funcionar
+# ![Resultado após o filtro de pacotes](quest5.png)
+
+## 4. Analise os cabeçalhos HTTP para identificar o método de requisição (GET, POST, etc.), o URL acessado, os cabeçalhos de resposta e o conteúdo da página.
+
+# Método de requisição: GET (utilizado para solicitar a transferência do recurso do servidor)
+# O URL acessado: http://example.com 
+# Recurso: / (indica a requisição do diretório raiz ou página index do servidor).
+# Protocolo: HTTP/1.1
+# Status Code: 200 Ok (requisição do cliente foi bem sucedida)
+# Content-Type: text/html
+# Pacote 240 (GET /favicon.ico): Requisição automática disparada pelo navegador buscando o ícone de abas do site.
+# Pacote 277 (HTTP/1.1 404 Not Found): Resposta do servidor web informando através do código 404 que o recurso de imagem do ícone solicitado não existe no servidor.

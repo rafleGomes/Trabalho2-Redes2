@@ -1,0 +1,4 @@
+[2026-05-21 17:10:36] Servidor de Hora Multithread Iniciado.
+[2026-05-21 17:10:36] Aguardando conexões na porta 7000...
+[2026-05-21 17:11:13] Solicitação recebida do cliente ('127.0.0.1', 51228)
+[2026-05-21 17:11:13] Solicitação atendida com sucesso para ('127.0.0.1', 51228) (Hora enviada: 17:11:13)
